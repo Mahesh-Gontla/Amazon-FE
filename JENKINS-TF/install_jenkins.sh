@@ -9,7 +9,7 @@ sudo apt install maven -y
 mvn -version
 sudo apt install git -y
 git --version
-sudo wget https://get.jenkins.io/war-stable/2.387.1/jenkins.war
+sudo wget https://get.jenkins.io/war-stable/2.414.3/jenkins.war
 ls
 sudo java -jar jenkins.war --httpPort=443 
 
